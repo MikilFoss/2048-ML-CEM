@@ -8,6 +8,6 @@ game.py - acts as a the controller to play a game of 2048
 
 Enviornment.py - acts as the intermediary between the game file and MyFlow providing the neural network with the state and score
 
-MyFlow.py - this is the custom machine learning library, it contains classes for a fully connected neural network, and a custom neural network architecture which allows layers to feed into themselves. It also has support for genetic training.
+MyFlow.py - this is the custom machine learning library, it contains classes for a fully connected neural network, and a custom neural network architecture which allows layers to feed into themselves, these networks are by default trained via a genetic algorithm. There is also support for multiprocessing.
 
 Noter.ipynb - This is the notebook which creates networks and trains them.
